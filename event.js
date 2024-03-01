@@ -7,6 +7,8 @@ myBtn.addEventListener("click", () => {
   //   console.log("Button Clicked!");
 });
 box2.addEventListener("mouseover", () => {
-  alert("Red Zone");
+  box2.style.transform = "scaleY(1.5)";
 });
-box2.addEventListener("mouseout", () => {});
+box2.addEventListener("mouseout", () => {
+  box2.style.transform = "";
+});
