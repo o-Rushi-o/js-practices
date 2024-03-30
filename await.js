@@ -14,3 +14,5 @@ const activities = async () => {
   }
 };
 activities();
+
+//event loop  - a mechanism in JavaScript runtime that allows web applications to handle asynchronous code.
